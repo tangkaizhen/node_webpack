@@ -1,0 +1,9 @@
+// 这里主要是添加的一些插件进行配置
+{
+    "presets": [
+        [
+          // 这是配置react环境必须首先加上的预设
+          "@babel/preset-react", { "development": true }
+        ]
+      ]
+}
